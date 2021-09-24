@@ -33,7 +33,7 @@ int previsaoAno(int *x);
 int previsaoAno(int *x) {
   int media, difDatas = 0;
 
-  for (int i = 0; i < MAX_P; i = i + 2) {
+  for (int i = 0; i < MAX_P; ++i) {
     difDatas += labs(personalidades[i].data.ano - personalidades[i+1].data.ano);
   }
 
