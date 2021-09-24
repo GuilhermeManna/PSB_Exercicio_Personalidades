@@ -38,7 +38,7 @@ int previsaoAno(int *x) {
   }
 
   media = difDatas/10;
-  return personalidades[9].data.ano + media;
+  return personalidades[0].data.ano + media;
 }
 
 int main() {
